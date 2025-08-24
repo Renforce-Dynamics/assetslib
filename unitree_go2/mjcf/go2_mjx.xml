@@ -1,5 +1,5 @@
 <mujoco model="go2">
-  <compiler angle="radian" meshdir="meshes" autolimits="true"/>
+  <compiler angle="radian" meshdir="../meshes" autolimits="true"/>
 
   <option cone="pyramidal" impratio="100" iterations="1" ls_iterations="5">
     <flag eulerdamp="disable"/>
