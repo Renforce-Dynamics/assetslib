@@ -209,3 +209,5 @@ __marimo__/
 # Mujoco & IsaacLab
 config.yaml
 .asset_hash
+CMakeLists.txt
+package.xml
