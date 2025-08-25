@@ -579,34 +579,11 @@
   </joint>
 
   <!-- IMU -->
-  <link name="imu_in_torso"></link>
-  <joint name="imu_in_torso_joint" type="fixed">
+  <link name="imu_link"></link>
+  <joint name="imu_joint" type="fixed">
     <origin xyz="-0.03959 -0.00224 0.13792" rpy="0 0 0"/>
     <parent link="torso_link"/>
-    <child link="imu_in_torso"/>
-  </joint>
-
-  <link name="imu_in_pelvis"></link>
-  <joint name="imu_in_pelvis_joint" type="fixed">
-    <origin xyz="0.04525 0 -0.08339" rpy="0 0 0"/>
-    <parent link="pelvis"/>
-    <child link="imu_in_pelvis"/>
-  </joint>
-
-  <!-- d435 -->
-  <link name="d435_link"></link>
-  <joint name="d435_joint" type="fixed">
-    <origin xyz="0.0576235 0.01753 0.41987" rpy="0 0.8307767239493009 0"/>
-    <parent link="torso_link"/>
-    <child link="d435_link"/>
-  </joint>
-
-  <!-- mid360 -->
-  <link name="mid360_link"></link>
-  <joint name="mid360_joint" type="fixed">
-    <origin xyz="0.0002835 0.00003 0.40618" rpy="0 0.04014257279586953 0"/>
-    <parent link="torso_link"/>
-    <child link="mid360_link"/>
+    <child link="imu_link"/>
   </joint>
 
   <!-- Arm -->
@@ -726,7 +703,7 @@
     <axis xyz="0 1 0"/>
     <limit lower="-1.0472" upper="2.0944" effort="25" velocity="37"/>
   </joint>
-  <joint name="left_wrist_roll_joint" type="revolute">
+  <joint name="left_wrist_roll_joint" type="fixed">
     <origin xyz="0.100 0.00188791 -0.010" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
     <parent link="left_elbow_link"/>
@@ -871,7 +848,7 @@
     <axis xyz="0 1 0"/>
     <limit lower="-1.0472" upper="2.0944" effort="25" velocity="37"/>
   </joint>
-  <joint name="right_wrist_roll_joint" type="revolute">
+  <joint name="right_wrist_roll_joint" type="fixed">
     <origin xyz="0.100 -0.00188791 -0.010" rpy="0 0 0"/>
     <axis xyz="1 0 0"/>
     <parent link="right_elbow_link"/>
