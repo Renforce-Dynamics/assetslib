@@ -311,7 +311,7 @@
 
   <actuator>
     <motor name="left_hip_pitch" joint="left_hip_pitch_joint" ctrlrange="-88 88" />
-    <motor name="left_hip_roll" joint="left_hip_roll_joint" ctrlrange="-88 88" />
+    <motor name="left_hip_roll" joint="left_hip_roll_joint" ctrlrange="-139 139" />
     <motor name="left_hip_yaw" joint="left_hip_yaw_joint" ctrlrange="-88 88" />
     <motor name="left_knee" joint="left_knee_joint" ctrlrange="-139 139" />
     <motor name="left_ankle_pitch" joint="left_ankle_pitch_joint" ctrlrange="-50 50" />
