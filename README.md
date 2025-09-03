@@ -121,8 +121,8 @@ assets/
     <td> smplx_humanoid </td>
     <td> smplx_humanoid </td>
     <td> smplx_humanoid.usd </td>
-    <td>  </td>
-    <td>  </td>
+    <td> ❌ </td>
+    <td> ❌ </td>
     <td> ✅ </td>
     <td> ✅ </td>
     <td>  </td>
