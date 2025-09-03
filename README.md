@@ -117,6 +117,17 @@ assets/
     <td>  </td>
     <td>  </td>
   </tr>
+  <tr>
+    <td> smplx_humanoid </td>
+    <td> smplx_humanoid </td>
+    <td> smplx_humanoid.usd </td>
+    <td>  </td>
+    <td>  </td>
+    <td> ✅ </td>
+    <td> ✅ </td>
+    <td>  </td>
+    <td>  </td>
+  </tr>
 </table>
 
 
